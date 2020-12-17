@@ -1,5 +1,5 @@
 # Boulder Trail Running Path Generator 
-#####Harold Ainsworth, Fall 2020
+Harold Ainsworth, Fall 2020
 
 
 ## Project Goals
