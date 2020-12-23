@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- title -->
+    <title>Boulder Trails</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Harold Ainsworth">
+
+    <!-- script imports -->
+    <script src="https://unpkg.com/vue@3.0.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+</head>
+<body>
+    {% verbatim %}
+    <div id="BoulderTrailsApp">
+        <app-nav></app-nav>
+        <app-view>
+            <app-sidebar></app-sidebar>
+            <app-content></app-content>
+        </app-view>
+    </div>
+
+
+    {% endverbatim %}
+
+    <!-- scripts to run after DOM generation -->
+    <script src="{% static 'frontend/main.js' %}"></script>
+</body>
+</html>
